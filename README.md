@@ -42,8 +42,8 @@ Follow by SOLID (define the protocol to init ViewController followed by MVVM str
     - Views display visual elements and controls on the screen. They’re typically subclasses of UIView.
     - View models transform model information into values that can be displayed on a view. They’re usually classes, so they can be passed around as references.
 - [x] Extensions: Some extensions of classes.
-- [x] TestNABWeatherTest: The Test of ViewModel
-- [x] TestNABWeatherUITestsZ: The Test of UI
+- [x] TestCoinsPHTests: The Test of ViewModel
+- [x] TestCoinsPHUITests: The Test of UI
 
 ## Libraries in Pods:
 
@@ -111,7 +111,7 @@ We would love you for the contribution of my code to be more clear in the future
 
 Your Name – [@TungPhan](https://www.facebook.com/tung.teotop/) – phanthanhtung.pt@gmail.com
 
-[https://github.com/vuakungfuvt/TestNABWeather](https://github.com/vuakungfuvt/TestNABWeather)
+[https://github.com/vuakungfuvt/TestCoinsPH](https://github.com/vuakungfuvt/TestCoinsPH)
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
 [swift-url]: https://swift.org/
