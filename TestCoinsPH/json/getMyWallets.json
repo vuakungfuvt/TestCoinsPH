@@ -1,0 +1,22 @@
+{
+  "wallets": [
+    {
+      "id": "1001",
+      "wallet_name": "ANC",
+      "balance": "1000.23",
+      "imageUrl": "https://dl.dropbox.com/s/8snizcn38ow3bh3/ic-anc.png?dl=0"
+    },
+    {
+      "id": "1002",
+      "wallet_name": "ETH",
+      "balance": "100.10",
+      "imageUrl": "https://dl.dropbox.com/s/5mu4ugpkepdd4ti/ic-eth.jpeg?dl=0"
+    },
+    {
+      "id": "1003",
+      "wallet_name": "LUNA",
+      "balance": "0.000000000000010026",
+      "imageUrl": "https://dl.dropbox.com/s/361pq04pk1s14me/ic-luna.png?dl=0"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-Bold.ttf">
+            <string>NunitoSans-Bold</string>
+        </array>
+        <array key="NunitoSans-SemiBold.ttf">
+            <string>NunitoSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ItemTransactionTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemTransactionTableViewCell" rowHeight="86" id="KGk-i7-Jjw" customClass="ItemTransactionTableViewCell" customModule="TestCoinsPH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="440" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000.23 BTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-QI-5Xu">
+                        <rect key="frame" x="323" y="10" width="97" height="66"/>
+                        <fontDescription key="fontDescription" name="NunitoSans-Bold" family="Nunito Sans" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've receive a payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG9-vX-Tef">
+                        <rect key="frame" x="15" y="33.5" width="160" height="19.5"/>
+                        <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Fd-QI-5Xu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1Y8-Ki-bs6"/>
+                    <constraint firstAttribute="trailing" secondItem="5Fd-QI-5Xu" secondAttribute="trailing" constant="20" id="6Qa-fj-SrO"/>
+                    <constraint firstItem="qG9-vX-Tef" firstAttribute="centerY" secondItem="5Fd-QI-5Xu" secondAttribute="centerY" id="F7Z-Fl-1uw"/>
+                    <constraint firstItem="qG9-vX-Tef" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="HyB-ex-dyT"/>
+                    <constraint firstAttribute="bottom" secondItem="5Fd-QI-5Xu" secondAttribute="bottom" constant="10" id="aRM-By-wFW"/>
+                    <constraint firstItem="5Fd-QI-5Xu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qG9-vX-Tef" secondAttribute="trailing" constant="10" id="iJv-ed-4Ch"/>
+                    <constraint firstItem="5Fd-QI-5Xu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="pb5-qL-MJ8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.12549020350000001" green="0.14901961389999999" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <connections>
+                <outlet property="lblContent" destination="qG9-vX-Tef" id="UZi-IX-96B"/>
+                <outlet property="lblQuantity" destination="5Fd-QI-5Xu" id="tdy-20-7Is"/>
+            </connections>
+            <point key="canvasLocation" x="218.84057971014494" y="101.78571428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
