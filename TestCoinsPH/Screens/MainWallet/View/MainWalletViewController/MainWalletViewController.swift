@@ -14,7 +14,7 @@ class MainWalletViewController: UIViewController, XibViewController {
     
     // MARK: - Variables
     let refreshControl = UIRefreshControl()
-    private let viewModel: MainWalletViewModel = MainWalletViewModel(userDefaults: UserDefaults.standard, dataAdapter: CoinsPHAPI())
+    private let viewModel: MainWalletViewModel = MainWalletViewModel(userDefaults: UserDefaults.standard, dataAdapter: CoinsPHMockDataSuccess())
 
     override func viewDidLoad() {
         super.viewDidLoad()
