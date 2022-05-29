@@ -27,12 +27,19 @@ Follow by SOLID (define the protocol to init ViewController followed by MVVM str
 
 <img src= "images/structure.png" width="400" >
 - [x] json: Json mock data for unit test.
+
 - [x] Font: Folder of font source
+
 - [x] Service: Networking service.
+
         +RequestBuilder.swift, SessionBuilder.swift: Store some protocol to define the full api resful service.
+        
         +Networkingable: The typealias of request and responsed file
+        
         +When calling 1 api, we will define in Operation folder and implement BaseOperation<GenericModelType>, inside each file we have the method, parameters and the response type.
+        
 - [x] Screens: ViewController followed by MVVM.
+
 
 <img src= "images/mvvm.jpeg" width="400" >
 
